@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring boot app</title>
+</head>
+<body>
+    <h1>Welcome !</h1>
+    <h2 th:style="'color:' + ${color}"
+        th:text="${userName}"></h2>
+</body>
+</html>
